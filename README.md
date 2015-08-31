@@ -4,6 +4,8 @@ Kurssilla käsitellään ohjelmistotuotantoprojektien hallinnan, työvaiheiden j
 
 Kurssi sisältää viikoittaiset harjoitustehtävät sekä luentokalvot. Viikolla 39 alkaa miniprojektit, joista lisää tietoa aloitusluennolla sekä myöhemmin näillä sivuilla. 
 
+Tentti: ti 20.11 
+
 ## Viikko 1
 
 ## Aloitusluento : ti 1.9. D122 klo 16-18
