@@ -16,7 +16,7 @@ Tentti: ti 20.11
 * johdanto, ohjelmistoprosessin vaiheet, prosessimallit
 * tekniset asiat: versionhallinnan ja buildhallinnan alkeet
 
-* "kalvot": ilmestyy luennon jälkeen 
+* "kalvot": ilmestyy luennon jälkeen tiistaina 
 
 * taustamateriaalia:
 ** Martin Fowler The New Methodology "http://martinfowler.com/articles/newMethodology.html":http://martinfowler.com/articles/newMethodology.html
