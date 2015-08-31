@@ -8,6 +8,7 @@ Kurssi sisältää viikoittaiset harjoitustehtävät sekä luentokalvot. Viikoll
 
 ## Aloitusluento : ti 1.9. D122 klo 16-18
 
+* kurssin yleiset asiat 
 * johdanto, ohjelmistoprosessin vaiheet, prosessimallit
 * tekniset asiat: versionhallinnan ja buildhallinnan alkeet
 
