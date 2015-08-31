@@ -24,4 +24,4 @@ Tentti: ti 20.11
 
 ### Laskari 1 
 
-Ilmestyy ti 2.9 
+Ilmestyy ti 1.9 
