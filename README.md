@@ -23,3 +23,5 @@ Tentti: ti 20.11
 ** Ten minute build "http://jamesshore.com/Agile-Book/ten_minute_build.html":http://jamesshore.com/Agile-Book/ten_minute_build.html
 
 ### Laskari 1 
+
+Ilmestyy ti 2.9 
