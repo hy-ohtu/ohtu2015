@@ -2,7 +2,7 @@
 
 Kurssilla käsitellään ohjelmistotuotantoprojektien hallinnan, työvaiheiden ja työvälineiden perusteita. Erityinen painotus ketterissä ohjelmistotutantomenetelmissä. 
 
-Kurssi sisältää viikoittaiset harjoitustehtävät sekä luentokalvot. Viikolla 39 alkaa miniprojektit, joista lisää tietoa aloitusluennolla sekä myöhemmin. 
+Kurssi sisältää viikoittaiset harjoitustehtävät sekä luentokalvot. Viikolla 39 alkaa miniprojektit, joista lisää tietoa aloitusluennolla sekä myöhemmin näillä sivuilla. 
 
 ## Viikko 1
 
