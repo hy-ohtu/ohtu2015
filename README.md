@@ -4,9 +4,9 @@ Kurssilla käsitellään ohjelmistotuotantoprojektien hallinnan, työvaiheiden j
 
 Kurssi sisältää viikoittaiset harjoitustehtävät sekä luentokalvot. Viikolla 39 alkaa miniprojektit, joista lisää tietoa aloitusluennolla sekä myöhemmin. 
 
-h2. Viikko 1
+## Viikko 1
 
-h3. Aloitusluento : ti 1.9. D122 klo 16-18
+## Aloitusluento : ti 1.9. D122 klo 16-18
 
 * johdanto, ohjelmistoprosessin vaiheet, prosessimallit
 * tekniset asiat: versionhallinnan ja buildhallinnan alkeet
