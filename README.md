@@ -32,3 +32,5 @@ deadline ma 7.9 klo 23:59
 
 [perus ](https://github.com/hy-ohtu/ohtu2015/wiki/Laskari-1-perus)
 [haastavat ](https://github.com/hy-ohtu/ohtu2015/wiki/Laskari-1-haastava)
+
+Seuraavat laskarit ilmestyvät viikoittain viimeistään maanantaisin ennen edellisen viikon deadlinea. 
