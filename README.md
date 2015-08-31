@@ -19,3 +19,5 @@ Kurssi sisältää viikoittaiset harjoitustehtävät sekä luentokalvot. Viikoll
 ** Manifesto for Agile Software Development "http://agilemanifesto.org/":http://agilemanifesto.org/
 ** Version control "http://jamesshore.com/Agile-Book/version_control.html":http://jamesshore.com/Agile-Book/version_control.html
 ** Ten minute build "http://jamesshore.com/Agile-Book/ten_minute_build.html":http://jamesshore.com/Agile-Book/ten_minute_build.html
+
+### Laskari 1 
