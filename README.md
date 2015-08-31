@@ -26,6 +26,8 @@ Tentti: ti 20.11
 
 ### Laskari 1 
 
+Kurssilla on joka viikko 2 laskarivaihtoehtoa, perus ja haastavat. Haastavat laskarit sopivat opiskelijoille, jotka ovat aiemmin esimerkiksi työskennelleet ohjelmistoalalla, tai ovat muuten motivoituneita opiskelemaan itsenäisesti ja oppimaan paljon uutta. Molemmissa laskareissa on saman verran tehtäviä. Jos aloittaa kurssin tekemällä haastavia laskareita, voi myöhemmin palata 'peruslinjalle' halutessaan. 
+
 deadline ma 7.9 klo 23:59 
 
 [perus ](https://github.com/hy-ohtu/ohtu2015/wiki/Laskari-1-perus)
