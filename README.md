@@ -15,6 +15,7 @@ Tentti: ti 20.11
 ## Luennot
 
 aloitusluento: https://github.com/hy-ohtu/ohtu2015/blob/master/aloitusluento.pdf
+
 luento2: https://github.com/hy-ohtu/ohtu2015/blob/master/luennot/luento2.pdf
 
 ## Aloitusluento : ti 1.9. D122 klo 16-18
