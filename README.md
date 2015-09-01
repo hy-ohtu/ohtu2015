@@ -8,7 +8,7 @@ Kurssin vastuuhenkilö on Matti Luukkainen, mutta yleiset kurssin suoritukseen l
 
 Tentti: ti 20.11 
 
-## Viikko 1
+## Viikko 1 Paja-ajat ke 2.9 klo 10-12 & to 3.9 klo 10-12 B221 
 
 ## Aloitusluento : ti 1.9. D122 klo 16-18
 
