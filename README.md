@@ -6,9 +6,11 @@ Kurssi sisältää viikoittaiset harjoitustehtävät sekä luentokalvot. Viikoll
 
 Kurssin vastuuhenkilö on Matti Luukkainen, mutta yleiset kurssin suoritukseen liittyvät kysymykset voi lähettää assistentti Pihla Toivaselle, pihla.toivanen@helsinki.fi. 
 
+IRC-kanava on #ohtu2015 @ IRCnet 
+
 Tentti: ti 20.11 
 
-## Viikko 1 Paja-ajat ke 2.9 klo 10-12 & to 3.9 klo 10-12 B221 
+## Viikko 1 Paja-ajat ke 2.9 klo 10-12 & to 3.9 klo 10-12 BK107 (huom. huone muuttui ti iltana)  
 
 ## Aloitusluento : ti 1.9. D122 klo 16-18
 
@@ -16,7 +18,7 @@ Tentti: ti 20.11
 * johdanto, ohjelmistoprosessin vaiheet, prosessimallit
 * tekniset asiat: versionhallinnan ja buildhallinnan alkeet
 
-* "kalvot": ilmestyy luennon jälkeen tiistaina 
+* "kalvot": https://github.com/hy-ohtu/ohtu2015/blob/master/aloitusluento.pdf 
 
 * taustamateriaalia:
 ** Martin Fowler The New Methodology "http://martinfowler.com/articles/newMethodology.html":http://martinfowler.com/articles/newMethodology.html
