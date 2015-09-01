@@ -12,13 +12,16 @@ Tentti: ti 20.11
 
 ## Viikko 1 Paja-ajat ke 2.9 klo 10-12 & to 3.9 klo 10-12 BK107 (huom. huone muuttui ti iltana)  
 
+## Luennot
+
+aloitusluento: https://github.com/hy-ohtu/ohtu2015/blob/master/aloitusluento.pdf
+luento2: https://github.com/hy-ohtu/ohtu2015/blob/master/luennot/luento2.pdf
+
 ## Aloitusluento : ti 1.9. D122 klo 16-18
 
 * kurssin yleiset asiat 
 * johdanto, ohjelmistoprosessin vaiheet, prosessimallit
 * tekniset asiat: versionhallinnan ja buildhallinnan alkeet
-
-* "kalvot": https://github.com/hy-ohtu/ohtu2015/blob/master/aloitusluento.pdf 
 
 * taustamateriaalia:
 ** Martin Fowler The New Methodology "http://martinfowler.com/articles/newMethodology.html":http://martinfowler.com/articles/newMethodology.html
