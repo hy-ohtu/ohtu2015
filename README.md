@@ -10,7 +10,7 @@ IRC-kanava on #ohtu2015 @ IRCnet
 
 Tentti: ti 20.11 
 
-## Viikko 1 Paja-ajat ke 2.9 klo 10-12 & to 3.9 klo 10-12 B221 
+## Viikko 1 Paja-ajat ke 2.9 klo 10-12 & to 3.9 klo 10-12 BK107 (huom. huone muuttui ti iltana)  
 
 ## Aloitusluento : ti 1.9. D122 klo 16-18
 
