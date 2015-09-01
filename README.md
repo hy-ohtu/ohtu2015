@@ -2,7 +2,7 @@
 
 Kurssilla käsitellään ohjelmistotuotantoprojektien hallinnan, työvaiheiden ja työvälineiden perusteita. Erityinen painotus ketterissä ohjelmistotuotantomenetelmissä. 
 
-Kurssi sisältää viikoittaiset harjoitustehtävät sekä luentokalvot. Viikolla 39 alkaa miniprojektit, joista lisää tietoa aloitusluennolla sekä myöhemmin näillä sivuilla. 
+Kurssi sisältää viikoittaiset harjoitustehtävät sekä luentokalvot. Viikolla 39 alkaa miniprojektit, joista lisää tietoa aloitusluennossa sekä myöhemmin näillä sivuilla. 
 
 Kurssin vastuuhenkilö on Matti Luukkainen, mutta yleiset kurssin suoritukseen liittyvät kysymykset voi lähettää assistentti Pihla Toivaselle, pihla.toivanen@helsinki.fi. 
 
