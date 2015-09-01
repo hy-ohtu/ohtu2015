@@ -6,6 +6,8 @@ Kurssi sisältää viikoittaiset harjoitustehtävät sekä luentokalvot. Viikoll
 
 Kurssin vastuuhenkilö on Matti Luukkainen, mutta yleiset kurssin suoritukseen liittyvät kysymykset voi lähettää assistentti Pihla Toivaselle, pihla.toivanen@helsinki.fi. 
 
+IRC-kanava on #ohtu2015 @ IRCnet 
+
 Tentti: ti 20.11 
 
 ## Viikko 1 Paja-ajat ke 2.9 klo 10-12 & to 3.9 klo 10-12 B221 
