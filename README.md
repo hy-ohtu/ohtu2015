@@ -47,3 +47,5 @@ deadline ma 7.9 klo 23:59
 [haastavat ](https://github.com/hy-ohtu/ohtu2015/wiki/Laskari-1-haastava)
 
 Seuraavat laskarit ilmestyvät viikoittain viimeistään maanantaisin ennen edellisen viikon deadlinea. 
+
+##Viikko2 Paja-ajat to klo 14-16 ja pe klo 12-14 
