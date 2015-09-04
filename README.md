@@ -13,7 +13,7 @@ IRC-kanava on #ohtu2015 @ IRCnet
 * Tekemällä 90% muista kuin versionhallintaa käsittelevistä tehtävistä voi saada lisänopan
 * Tekemällä 90% haastavista tehtävistä voi saada lisänopan
 
-Huom. myös haastavissa tehtävissä on git-tehtäviä, saman verran kuin perustehtävissä. Näinollen siis tekemällä esim. kaikki haastavat tehtävät ja osallistumalla miniprojektiin saat 8op 
+<b>Huom.</b> myös haastavissa tehtävissä on git-tehtäviä, saman verran kuin perustehtävissä. Näinollen siis tekemällä esim. kaikki haastavat tehtävät ja osallistumalla miniprojektiin saat 8op 
 
 Tentti: ti 20.11 
 
