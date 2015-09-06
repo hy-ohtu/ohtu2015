@@ -21,13 +21,13 @@ Tentti: ti 20.11
 
 [Alustavaa infoa](https://github.com/hy-ohtu/ohtu2015/wiki/Miniprojektit)
 
-## Viikko 1 Paja-ajat ke 2.9 klo 10-12 & to 3.9 klo 10-12 BK107 (huom. huone muuttui ti iltana)  
-
 ## Luennot
 
 [aloitusluento](https://github.com/hy-ohtu/ohtu2015/blob/master/aloitusluento.pdf)
 
 [luento2](https://github.com/hy-ohtu/ohtu2015/blob/master/luennot/luento2.pdf)
+
+## Viikko 1 Paja-ajat ke 2.9 klo 10-12 & to 3.9 klo 10-12 BK107 (huom. huone muuttui ti iltana)  
 
 ## Aloitusluento : ti 1.9. D122 klo 16-18
 
