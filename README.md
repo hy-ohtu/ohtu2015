@@ -48,4 +48,4 @@ deadline ma 7.9 klo 23:59
 
 Seuraavat laskarit ilmestyvät viikoittain viimeistään maanantaisin ennen edellisen viikon deadlinea. 
 
-##Viikko2 Paja-ajat to 10.9 klo 14-16 ja pe 11.9 klo 12-14 
+##Viikko2 Paja-ajat to 10.9 klo 14-16 ja pe 11.9 klo 12-16
