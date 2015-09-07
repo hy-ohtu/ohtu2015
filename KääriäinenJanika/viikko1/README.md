@@ -1,2 +1,2 @@
 # ohtu-viikko1
-trigger on asd
+http://ohtu.jamo.io/job/janika-viikko1/
