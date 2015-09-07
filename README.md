@@ -13,17 +13,21 @@ IRC-kanava on #ohtu2015 @ IRCnet
 * Tekemällä 90% muista kuin versionhallintaa käsittelevistä tehtävistä voi saada lisänopan
 * Tekemällä 90% haastavista tehtävistä voi saada lisänopan
 
-Huom. myös haastavissa tehtävissä on git-tehtäviä, saman verran kuin perustehtävissä. Näinollen siis tekemällä esim. kaikki haastavat tehtävät ja osallistumalla miniprojektiin saat 8op 
+<b>Huom.</b> myös haastavissa tehtävissä on git-tehtäviä, saman verran kuin perustehtävissä. Näinollen siis tekemällä esim. kaikki haastavat tehtävät ja osallistumalla miniprojektiin saat 8op 
 
 Tentti: ti 20.11 
 
-## Viikko 1 Paja-ajat ke 2.9 klo 10-12 & to 3.9 klo 10-12 BK107 (huom. huone muuttui ti iltana)  
+##Miniprojektit
+
+[Alustavaa infoa](https://github.com/hy-ohtu/ohtu2015/wiki/Miniprojektit)
 
 ## Luennot
 
 [aloitusluento](https://github.com/hy-ohtu/ohtu2015/blob/master/aloitusluento.pdf)
 
 [luento2](https://github.com/hy-ohtu/ohtu2015/blob/master/luennot/luento2.pdf)
+
+## Viikko 1 Paja-ajat ke 2.9 klo 10-12 & to 3.9 klo 10-12 BK107 (huom. huone muuttui ti iltana)  
 
 ## Aloitusluento : ti 1.9. D122 klo 16-18
 
@@ -47,3 +51,11 @@ deadline ma 7.9 klo 23:59
 [haastavat ](https://github.com/hy-ohtu/ohtu2015/wiki/Laskari-1-haastava)
 
 Seuraavat laskarit ilmestyvät viikoittain viimeistään maanantaisin ennen edellisen viikon deadlinea. 
+
+###Laskari 2
+Deadline ma 14.9 klo 23:59
+
+[perus](https://github.com/hy-ohtu/ohtu2015/wiki/Laskari-2-perus)
+[haastavat](https://github.com/hy-ohtu/ohtu2015/wiki/Laskari-2-haastava)
+
+##Viikko2 Paja-ajat to 10.9 klo 14-16 ja pe 11.9 klo 12-16
