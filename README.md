@@ -8,12 +8,12 @@ Kurssin vastuuhenkilö on Matti Luukkainen, mutta yleiset kurssin suoritukseen l
 
 IRC-kanava on #ohtu2015 @ IRCnet 
 
-<b>Lisäopintopisteet:</b> Kurssista on jaossa yhteensä 8 opintopistettä. 
+**Lisäopintopisteet:** Kurssista on jaossa yhteensä 8 opintopistettä. 
 * Jos et ole tehnyt Versionhallinta -kurssia, saat 1op merkinnän siitä tekemällä kaikki kurssin git-tehtävät (jommalta kummalta träkiltä tai niiden sekoitukselta riittää, molemmilla träkeillä on kaikilla viikoilla saman verran git-tehtäviä) ja osallistumalla hyväksytysti miniprojektiin. 
 * Tekemällä 90% muista kuin versionhallintaa käsittelevistä tehtävistä voi saada lisänopan
 * Tekemällä 90% haastavista tehtävistä voi saada lisänopan
 
-<b>Huom.</b> myös haastavissa tehtävissä on git-tehtäviä, saman verran kuin perustehtävissä. Näinollen siis tekemällä esim. kaikki haastavat tehtävät ja osallistumalla miniprojektiin saat 8op 
+**Huom.** myös haastavissa tehtävissä on git-tehtäviä, saman verran kuin perustehtävissä. Näinollen siis tekemällä esim. kaikki haastavat tehtävät ja osallistumalla miniprojektiin saat 8op 
 
 Tentti: ti 20.11 
 
