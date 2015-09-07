@@ -25,7 +25,7 @@ Tentti: ti 20.11
 
 [aloitusluento](https://github.com/hy-ohtu/ohtu2015/blob/master/aloitusluento.pdf)
 
-[luento2](https://github.com/hy-ohtu/ohtu2015/blob/master/luennot/luento2.pdf)
+Loput luennot löytyvät [täältä](https://github.com/hy-ohtu/ohtu2015/tree/master/luennot)
 
 ## Viikko 1 Paja-ajat ke 2.9 klo 10-12 & to 3.9 klo 10-12 BK107 (huom. huone muuttui ti iltana)  
 
