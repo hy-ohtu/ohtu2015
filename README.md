@@ -17,6 +17,9 @@ IRC-kanava on #ohtu2015 @ IRCnet
 
 Tentti: ti 20.11 
 
+##Tekniset viat tai yleiset parannusehdotukset
+Jos huomaat tehtävissä tai ohtustats-palautussysteemissä jonkin ongelman joka kurssin henkilökunnan tulisi korjata, laita mieluiten [palautetta](https://ohtustats-s2015.herokuapp.com/feedbacks/new), sillä IRC-viestit hukkuvat helposti kanavalle ennen kuin asianomaiset ehtivät huomata ne. 
+
 ##Miniprojektit
 
 [Alustavaa infoa](https://github.com/hy-ohtu/ohtu2015/wiki/Miniprojektit)
