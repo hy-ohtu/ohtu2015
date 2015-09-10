@@ -21,6 +21,8 @@ Tentti: ti 20.11
 
 [Alustavaa infoa](https://github.com/hy-ohtu/ohtu2015/wiki/Miniprojektit)
 
+<b> Aloitustilaisuudet </b> ma 21.9 klo 18 C220, to 24.9 klo 9 C220 
+
 ## Luennot
 
 [aloitusluento](https://github.com/hy-ohtu/ohtu2015/blob/master/aloitusluento.pdf)
