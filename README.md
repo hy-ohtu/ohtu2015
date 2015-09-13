@@ -64,4 +64,4 @@ Deadline ma 14.9 klo 23:59
 
 ##Laskari 3
 
-##Viikko3 Paja-ajat ma 14.9 klo 18-19.30 
+##Viikko3 Paja-ajat ma 14.9 klo 18-19.30, ke 16.9 klo 14-16 
