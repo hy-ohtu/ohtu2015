@@ -61,3 +61,7 @@ Deadline ma 14.9 klo 23:59
 [haastavat](https://github.com/hy-ohtu/ohtu2015/wiki/Laskari-2-haastava)
 
 ##Viikko2 Paja-ajat to 10.9 klo 14-16 ja pe 11.9 klo 12-16
+
+##Laskari 3
+
+##Viikko3 Paja-ajat ma 14.9 klo 18-19.30 
