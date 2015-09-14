@@ -1,0 +1,154 @@
+#!/usr/bin/env python
+# -*- encoding: utf-8 -*-
+
+import sys
+import os
+from os import path
+import shutil
+import datetime
+
+def find_datadir():
+    curdir = path.split(os.getcwd())
+
+    while curdir:
+        trydir = path.join(*curdir + (".ohtuv",))
+        if path.isdir(trydir):
+            return trydir
+        curdir.pop()
+    exit_message(2, "Could not find any data directory")
+
+def exit_message(code, *msgs):
+    for msg in msgs:
+        sys.stderr.write(str(msg))
+        sys.stderr.write("\n")
+    sys.stderr.flush()
+    sys.exit(code)
+
+subcommands = {}
+subcommand_help = {}
+subcommand_short_help = {}
+
+def subcommand(f):
+    subcommands[f.func_name] = f
+    if f.__doc__:
+        subcommand_short_help[f.func_name] = f.__doc__.splitlines()[0]
+        subcommand_help[f.func_name] = f.__doc__
+    else:
+        subcommand_short_help[f.func_name] = subcommand_help[f.func_name] = f.func_name
+    return f
+
+@subcommand
+def init():
+    """init
+
+    luo .ohtuv -kansion nykyiseen kansioon jos sitä ei ole"""
+    datadir = path.join(os.getcwd(), ".ohtuv")
+
+    if path.isdir(datadir):
+        exit_message(1, "Data directory already exists")
+    os.mkdir(datadir)
+    sys.exit(0)
+
+@subcommand
+def save(fn):
+    """save <tiedostonimi>
+
+    tallentaa tiedostosta kopion .ohtuv -kansioon. Tiedostolle annetaan
+    nimeksi timestamp ja tiedostonnimi yhdistettynä tyyliin
+    "6.9.2015.15:34.ekatiedosto".
+
+    Jos nykyisessä hakemistossa ei ole .ohtuv -kansiota, ohjelma
+    lähtee hakemaan ylähakemistoista kansiota ja tallentaa kopion
+    ensimmäisenä löytyvään.
+
+    Jos .ohtuv -kansiota ei löydy edes juuresta, ohjelma ilmoittaa
+    ettei löytänyt ohtuv -repositoriota.
+    """
+
+    datadir = find_datadir()
+
+    if not path.exists(fn):
+        exit_message(3, "File to copy doesn't exist")
+
+    target_fn = "%s.%s" % (datetime.datetime.now().strftime("%d.%m.%Y.%H.%M"),
+                           fn)
+    target_path = path.join(datadir, target_fn)
+
+    shutil.copyfile(fn, target_path)
+    sys.exit(0)
+
+@subcommand
+def restore(ts, fn):
+    """restore <aikaleima> <tiedostonimi>
+
+    palauttaa 6.9.2015.15:34.ekatiedosto -tiedoston nykyiseksi
+    ekatiedostoksi. Jos päivältä 6.9.2015 on useita eri kopioita,
+    ohjelma listaa jokaisen niistä nimen ja pyytää käyttäjää
+    spesifioimaan tarkemmin.
+    """
+    requested_parts = ts.split(".")
+    if len(requested_parts) > 5:
+        exit_message(5, "Too many parts in date, max 5 allowed")
+
+    try:
+        requested_times = [int(p) for p in requested_parts]
+    except ValueError:
+        exit_message(4, "Date given isn't in valid format (day.month.year.hour.minute)")
+
+    datadir = find_datadir()
+
+    matches = []
+
+    for candidate in os.listdir(datadir):
+        if not path.isfile(path.join(datadir, candidate)):
+            continue
+        parts = candidate.split(".", 5)<d
+        if len(parts) != 6:
+            # uninteresting filename format
+            continue
+
+        candidate_filename = parts.pop()
+
+        try:
+            candidate_times = [int(p) for p in parts]
+        except ValueError:
+            # time units aren't integers
+            continue
+
+        candidate_times = candidate_times[:len(requested_times)]
+
+        if (candidate_times == requested_times
+            and candidate_filename == fn):
+            matches.append(candidate)
+
+    if not matches:
+        exit_message(6, "No such file found on date")
+    if len(matches) > 1:
+        exit_message(7, "Found more than one match!", *matches)
+
+    shutil.copy(path.join(datadir, matches[0]), fn)
+    sys.exit(0)
+
+@subcommand
+def help(subcommand):
+    "help <alikomento>"
+    if subcommand not in subcommands:
+        exit_message(9, "Not a valid command.")
+    print subcommand_help[subcommand]
+    sys.exit(0)
+
+def main():
+    help_text = "Commands: " + ", ".join(subcommand_short_help.values())
+
+    if len(sys.argv) == 1:
+        exit_message(8, help_text)
+    subcommand = sys.argv[1]
+    if subcommand not in subcommands:
+        exit_message(9, "Not a valid command.", help_text)
+
+    subcommands[subcommand](*sys.argv[2:])
+
+    exit_message(10, "Unexpected return from subcommand")
+
+if __name__ == "__main__":
+    main()
