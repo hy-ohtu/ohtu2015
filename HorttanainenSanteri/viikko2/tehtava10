@@ -1,0 +1,15 @@
+copyleft:
+Lisenssi, joka pakottaa saman lisenssin käytön myös koodin muunnetuissa ja eteenpäin jaetuissa versioissa.
+
+Contributor agreement:
+Ei ole lisenssi, mutta tapa projektiin osallistuvalle kehittäjälle ilmaista projektille vapaudet jakaa kehittäjän tekemiä muutoksia edelleen projektin lisenssin rajoissa.
+
+public domain:
+Yleisessä omistuksessa oleva projekti, jolla ei ole lisenssiä, mutta käytännössä toimii samoin kuin Open Source.
+
+Permissive open source license:
+Open Source lisenssi, joka ei ole copyleft lisenssi.
+
+Kun olen löytänyt sopivan lisenssin kerron siitä heti projektin etusivulla. Tämä voi olla vaikka linkki sivulle, joka sisältää lisenssin koko tekstin.
+
+Lisään lisenssin myös koodiin joukkoon tiedostoon nimeltä LICENSE. Tämän jälkeen lisään jokaisen lähdekkodia sisältävän tiedoston alkuun ilmoituksen, joka sisältää päiväyksen, koodin omistajan, lisenssin ja linkin paikkaan jossa koko lisenssin teksti on löydettävissä.
