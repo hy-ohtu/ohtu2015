@@ -1,0 +1,95 @@
+#!/bin/bash
+
+# Alustaa versionhallinnan
+function init {
+  if [ -d ".ohtuv" ]; then
+    echo "[*WARNING*] Versionhallinta on jo alustettu"
+  else
+    mkdir .ohtuv
+    echo "[*SUCCESS*] Versionhallinta alustettiin kansioon '.ohtuv'"
+  fi
+}
+
+# Tallentaa tiedoston versionhallintaan
+#
+# @param filename Tiedoston nimi
+function save {
+   filename=$1
+   if [ -f $filename ]; then
+    dir="$PWD"
+    orig="$PWD/$filename"
+    until [ "$PWD" = "/home" ]; do
+      if [ -d ".ohtuv" ]; then
+        cp $orig "$PWD/.ohtuv/$(date +%Y%m%d%H%M%S)_$filename"
+        echo "[*SUCCESS*] $filename lisättiin versionhallintaan nimellä $(date +%Y%m%d%H%M%S)_$filename"
+        echo $dir >> "$PWD/.ohtuv/$(date +%Y%m%d%H%M%S)_$filename.source"
+        echo ""
+        exit
+      fi
+      cd ..
+    done
+    echo "[*ERROR*] Versionhallintaa ei löytynyt hakemistosta. Alusta versionhallinta projektin juuressa komennolla 'ohtuv init'"
+  else
+    echo "[*ERROR*] Tiedostoa '$filename' ei löytynyt"
+  fi
+}
+
+# Palauttaa tiedostosta tietyn version aikaleiman perusteella
+#
+# @param timestamp  Aikaleima muodossa YYYYDDMMhhmm
+# @param filename   Tiedoston nimi
+function restore {
+  timestamp=$1
+  filename=$2
+  until [ "$PWD" = "/home" ]; do
+    if [ -d ".ohtuv" ]; then
+      cd .ohtuv/
+      file_list=()
+      while IFS= read -d $'\0' -r file ; do
+        file_list=("${file_list[@]}" "`echo $file | sed 's|./||'`")
+      done < <(find . -regextype posix-extended -regex "./$timestamp.*_$filename*" -type f -print0)
+      if [ ${#file_list[@]} = 0 ]; then
+        echo "[*ERROR*] Yhtään tiedosta ei löytynyt. Tarkista aikaleima ja/tai tiedostonnimi."
+      elif ((${#file_list[@]} > 1)); then
+        echo "[*ERROR*] Tiedostoja löydettiin enemmän kuin yksi. Tarkenna aikaleimaa."
+        for file in ${file_list[@]}; do
+			    echo $file
+			  done
+      else
+        cp "${file_list[0]}" "`cat ${file_list[0]}.source`/$filename"
+			  echo "[*SUCCESS*] Tiedosto palautettiin versionhallinnasta onnistuneesti"
+			  echo "${file_list[0]} >> `cat ${file_list[0]}.source`/$filename"
+      fi
+      exit
+    fi
+    cd ..
+  done
+  echo "[*ERROR*] Versionhallintaa ei löytynyt hakemistosta. Alusta versionhallinta projektin juuressa komennolla 'ohtuv init'"
+}
+
+echo ""
+
+if [ "$1" = "init" ]; then
+  init
+elif [ "$1" = "save" ]; then
+  if [ $2 ]; then
+    save $2
+  else
+    echo "[*ERROR*] Muista antaa tallennettavan tiedoston nimi: 'ohutv save FILENAME'"
+  fi
+elif [ "$1" = "restore" ]; then
+  if ! [ $2 ]; then
+    echo "[*ERROR*] Muista antaa aikaleima muodossa [YYYY][mm][dd][hh][MM]: 'ohtuv restore TIMESTAMP FILENAME'"
+  elif ! [ $3 ]; then
+    echo "[*ERROR*] Muista antaa palautettavan tiedoston nimi: 'ohtuv restore TIMESTAMP FILENAME'"
+  else
+    restore $2 $3
+  fi 
+else
+  echo "[*ERROR*] Komentoa ei löytynyt. Tarkista komento."
+  echo "ohtuv init  -  Alustaa versionhallinnan"
+  echo "ohtuv save FILENAME  -  Tallentaa tiedoston versionhallintaan"
+  echo "ohtuv restore TIMESTAMP FILENAME  -  Palauttaa tiedostosta tietyn version aikaleiman perusteella"
+fi
+
+echo ""
