@@ -1,0 +1,7 @@
+copyleft: jos softa on julkaistu copyleft-lisenssin alla, vaaditaan että kaikki muut julkaisut, jotka käyttävät kyseistä softaa, julkaistaan myös samalla lisenssillä
+contributor agreement: juridinen dokumentti, jolla projektiin kontributoiva julkaisija antaa projektille oikeuksia koodinsa käyttöön (ja myös toisin päin; määrittelee itselleen jääviä oikeuksia kontribuutoimaansa koodiin)
+public domain: tekijänsuojan ulkopuolelle jäävä koodi (esim. USA:n valtion tuottama). monesti juridisesti harmaata aluetta / riippuvainen paikallisesta lainsäädännöstä
+permissive open source licence: lisenssi, joka ei pahemmin rajoita koodin uudelleenjulkaisua (esim. vaatimuksilla, että kaikki koodia myöhemmin käyttävät julkaisut olisiva saman lisenssin alla (copyleft))
+
+Sekä vastaa kysymykseen: kun olet löytänyt sopivan lisenssin, mitä teet kun haluat julkaista koodisi sillä?
+Luet lisenssin ohjeista, kuinka kyseisen lisenssin alaisuudessa voi julkaista koodia. Tyypillisesti lisenssit vain liitetään lähdekoodeihin ja se on siinä(?)
