@@ -1,0 +1,13 @@
+Eclipsen lisenssi ei täytä GPL:n (TMC) ehtoja, joten molemmin
+lisenssein lisensoitua koodia ei voi laillisesti yhdistää ja
+uudelleenjulkaista. Oletettavasti TMC:n toiminta perustuu IDE:en
+sisuskaluihin niin tiiviisti, että yhteensopivuuskoodi laskettaisiin
+laveasti "derivative work"-luokkaan, eli tälläistä TMC-palikkaa ei
+saisi julkaista.
+
+Yksityinen loppukäyttäjä voi tietysti yhdistää epäyhteensopivasti
+lisensoitua koodia, sillä hän ei käytä lisenssien sallimaa
+julkaisumahdollisuutta. Lisenssirajoja voi siis murtaa käyttämällä
+julkisia rajapintoja, joiden käyttäminen yksinään ei täytä derivative
+work-ehtoa: lisenssiltään epäyhteensopivat, mutta teknisesti
+yhteensopivat ohjelmat voi asentaa ja käyttää yhdessä.
