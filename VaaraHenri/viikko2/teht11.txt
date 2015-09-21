@@ -1,0 +1,3 @@
+Miksi tmc-server on epäyhteensopiva eclipsen kanssa.
+	tmc server on tehty "gnu general public license v.2" alle tämä estää tmc serverin käyttämisen eclipsen kanssa. Eclipse ei salli seuraavien lisenssien alle tehtyjä lisäosia: gnu gpl 2.0, gnu lgpl ja sun binary code license agreement.
+	
