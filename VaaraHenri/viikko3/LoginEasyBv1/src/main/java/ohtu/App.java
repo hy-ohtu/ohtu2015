@@ -1,10 +1,12 @@
 package ohtu;
 
-import ohtu.data_access.InMemoryUserDao;
-import ohtu.data_access.UserDao;
-import ohtu.io.ConsoleIO;
+import java.io.FileNotFoundException;
+import ohtu.data_access.FileUserDAO;
+import ohtu.domain.User;
 import ohtu.io.IO;
 import ohtu.services.AuthenticationService;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 public class App {
 
@@ -51,11 +53,19 @@ public class App {
         }
     }
 
-    public static void main(String[] args) {
-        UserDao dao = new InMemoryUserDao();
-        IO io = new ConsoleIO();
-        AuthenticationService auth = new AuthenticationService(dao);
-        new App(io, auth).run();
+    public static void main(String[] args) throws FileNotFoundException {
+        
+        
+        ApplicationContext ctx = new FileSystemXmlApplicationContext("src/main/resources/spring-context.xml");
+        
+        App application = (App) ctx.getBean("app");
+        
+        application.run();
+        
+//        UserDao dao = new InMemoryUserDao();
+//        IO io = new ConsoleIO();
+//        AuthenticationService auth = new AuthenticationService(dao);
+//        new App(io, auth).run();
     }
     
     // testejä debugatessa saattaa olla hyödyllistä testata ohjelman ajamista

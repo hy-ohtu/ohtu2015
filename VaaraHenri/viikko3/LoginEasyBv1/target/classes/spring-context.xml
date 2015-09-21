@@ -9,7 +9,20 @@
             http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.0.xsd 
             http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
     
-    <context:annotation-config />
-    <context:component-scan base-package="ohtu" />  
+    <bean id="userdao" class="ohtu.data_access.FileUserDAO">
+        
+    </bean>
+    
+    <bean id="io" class="ohtu.io.ConsoleIO"></bean>
+    
+    <bean id="authservice" class="ohtu.services.AuthenticationService">
+        <constructor-arg ref="userdao" />
+    </bean>
+    
+    <bean id="app" class="ohtu.App">
+        <constructor-arg ref="io"/>
+        <constructor-arg ref="authservice" />
+    </bean>
+    
     
 </beans>

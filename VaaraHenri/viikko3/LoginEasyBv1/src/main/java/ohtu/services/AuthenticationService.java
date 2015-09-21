@@ -1,9 +1,9 @@
 package ohtu.services;
 
 import ohtu.domain.User;
-import java.util.ArrayList;
-import java.util.List;
 import ohtu.data_access.UserDao;
+import org.springframework.stereotype.Component;
+
 
 public class AuthenticationService {
 
@@ -25,7 +25,10 @@ public class AuthenticationService {
     }
 
     public boolean createUser(String username, String password) {
+        
+        
         if (userDao.findByName(username) != null) {
+            
             return false;
         }
 
@@ -39,6 +42,9 @@ public class AuthenticationService {
     }
 
     private boolean invalid(String username, String password) {
+        if (username.length() < 4) return true;
+        if (password.length() < 8) return true;
+        
         // validity check of username and password
 
         return false;
