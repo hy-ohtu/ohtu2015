@@ -1,0 +1,19 @@
+copyleft vaatii open-source koodiin perustuvien
+ohjelmistojen käyttävän samaa lisenssiä kuin alkuperäinen
+
+contributor agreement on sopimus joka on usein tehtävä jos haluaa vaikuttaa avoimen koodin projektissa ja joka velvoittaa kaiken tekijänoikeudellisen työn pysymistä avoimen lähdekoodin alaisuudessa.
+
+public domain tarkoittaa tekijänoikeudettomia teoksia
+jotka ovat vaikeampia jälkeenpäin lisensoida avoimen
+lähdekoodin piiriin.
+
+permissive open source license on lisenssi joka mahdollistaa avoimeen lähdekoodiin perustuvien ei-avointen teosten luomisen.
+
+
+Luon COPYRIGHT nimisen tiedoston ja sisällytän sen projektin lähdekoodiin eli vaikka git repoon.
+
+
+Tmc-netbeans käyttää GPL-2 lisenssiä kun taas eclipsen
+pluginien on pakko olla eclipsen oman lisenssin EPL:n
+alaisuudessa joka taas ei ole yhteensopiva GPL:n kanssa.
+Syynä on GPL-2:n vaatima vahva 'copyleft' eli tekijän töihin perustuvien tuotosten pysymistä GPL:n parissa. EPL tukee vain heikkoa 'copyleftia' eli vapaata levitysoikeutta joka ei ole yhtä vaativa sen suhteen. Myöskin EPL ei mahdollista yhtä laajoja tekijänoikeuksia joilla voi teoksia puolustaa tekijänoikeusrikkomustapauksissa.
