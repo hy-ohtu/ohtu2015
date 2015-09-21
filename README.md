@@ -67,3 +67,4 @@ Deadline ma 14.9 klo 23:59
 [perus](https://github.com/hy-ohtu/ohtu2015/wiki/Laskari-3-perus)
 [haastava](https://github.com/hy-ohtu/ohtu2015/wiki/Laskari-3-haastava)
 ##Viikko3 Paja-ajat ma 14.9 klo 18-19.30, ke 16.9 klo 14-16 
+##Viikko4 Paja-ajat to 24.9 klo 14-16, 
