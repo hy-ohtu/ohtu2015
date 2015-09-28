@@ -1,0 +1,2 @@
+Jo kolmannella viikolla Travis-tehtävä, jonka tekeminen ei onnistu, jos on ensimmäisen viikon
+Travis-harjoituksen kanssa jumissa. Vinkkipyyntöön saatu vastaus "joo se on aika vaikea" ei juuri tässä auta eteenpäin. Kolme tehtävää nyt sitten kaikkiaan tämän takia jäänyt tekemättä.
