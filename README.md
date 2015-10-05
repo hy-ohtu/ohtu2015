@@ -78,3 +78,6 @@ Deadline ma 14.9 klo 23:59
 ##Viikko5 paja-ajat ma 28.9 klo 14-16 & pe 12-14 
 
 ##Viikko6 paja-ajat ma 5.10 klo 14-16 & pe 12-14 
+##Laskari 6
+Perus -ja haastava laskari tällä viikolla sama. Jos suunnittelet haluavasi ylimääräisen opintopisteen haastavien laskarien teosta, merkkaa palautussubmissioon tehneesi haastavat. 
+[laskari](https://github.com/hy-ohtu/ohtu2015/wiki/Laskari-6-perus-&-haastava)
