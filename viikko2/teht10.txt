@@ -1,0 +1,18 @@
+copyleft: lisenssi, joka sitoo teoksen kopiointioikeudet
+jatkokopioinnin mahdollistamiseen
+
+contributor agreement: sopimus, jolla avoimen lähdekoodin projektiin
+osallistuva luovuttaa muutoksiensa lisensointioikeudet projektille
+itselleen
+
+public domain: julkista omaisuutta jolle kuka tahansa voi vapaasti
+tehdä mitä haluaa
+
+permissive open source license: avoimen lähdekoodin lisenssi, joka
+sallii kenen tahansa päällelisensoida teos suljetuksi lähdekoodiksi
+kunhan alkuperäinen lisenssi on edelleen mukana
+
+teoksen voi lisensoida lisäämällä halutun omiin nimiin muokatun
+lisenssiaihion projektiin. ilman erillistä lisenssiä teos on
+oletusarvoisesti mahdollisimman tiukilla tekijänoikeuksilla eikä
+periaatteessa kukaan saa kopioida sitä ilman erillistä lupaa
