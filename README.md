@@ -15,7 +15,7 @@ IRC-kanava on #ohtu2015 @ IRCnet
 
 **Huom.** myös haastavissa tehtävissä on git-tehtäviä, saman verran kuin perustehtävissä. Näinollen siis tekemällä esim. kaikki haastavat tehtävät ja osallistumalla miniprojektiin saat 8op 
 
-Tentti: 
+Tentti: Tiistaina 20.10 klo 09:00 salissa A111
 
 ##Miniprojektit
 
