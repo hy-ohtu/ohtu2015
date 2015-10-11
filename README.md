@@ -83,5 +83,5 @@ Deadline ma 14.9 klo 23:59
 Perus -ja haastava laskari tällä viikolla sama. Jos suunnittelet haluavasi ylimääräisen opintopisteen haastavien laskarien teosta, merkkaa palautussubmissioon tehneesi haastavat. 
 [laskari](https://github.com/hy-ohtu/ohtu2015/wiki/Laskari-6-perus-&-haastava)
 
-##Viikko7 
-Katso [loppukurssin aikatauluinfo](https://github.com/hy-ohtu/ohtu2015/wiki/Loppukurssin-aikatauluinfo) kokonaisuudessaan
+##Viikot 7&8
+Katso [loppukurssin aikatauluinfo](https://github.com/hy-ohtu/ohtu2015/wiki/Loppukurssin-aikatauluinfo) 
