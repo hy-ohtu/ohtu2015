@@ -48,6 +48,12 @@ public class IntJoukko {
         this.kasvatuskoko = kasvatuskoko;
     }
 
+    public void lisaa(int[] luvut) {
+        for (int i=0; i<luvut.length; i++) {
+            lisaa(luvut[i]);
+        }
+    }
+    
     public boolean lisaa(int luku) {
         if (alkioidenLkm == 0) {
             luvut[0] = luku;
@@ -144,14 +150,8 @@ public class IntJoukko {
 
     public static IntJoukko yhdiste(IntJoukko a, IntJoukko b) {
         IntJoukko x = new IntJoukko();
-        int[] aTaulu = a.toIntArray();
-        int[] bTaulu = b.toIntArray();
-        for (int i = 0; i < aTaulu.length; i++) {
-            x.lisaa(aTaulu[i]);
-        }
-        for (int i = 0; i < bTaulu.length; i++) {
-            x.lisaa(bTaulu[i]);
-        }
+        x.lisaa(a.toIntArray());
+        x.lisaa(b.toIntArray());
         return x;
     }
 
@@ -172,15 +172,12 @@ public class IntJoukko {
     
     public static IntJoukko erotus ( IntJoukko a, IntJoukko b) {
         IntJoukko z = new IntJoukko();
-        int[] aTaulu = a.toIntArray();
+        z.lisaa(a.toIntArray());
         int[] bTaulu = b.toIntArray();
-        for (int i = 0; i < aTaulu.length; i++) {
-            z.lisaa(aTaulu[i]);
-        }
         for (int i = 0; i < bTaulu.length; i++) {
             z.poista(i);
         }
- 
+
         return z;
     }
         
