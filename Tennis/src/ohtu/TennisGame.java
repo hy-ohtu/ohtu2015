@@ -4,12 +4,13 @@ public class TennisGame {
     
     private String player1Name;
     private String player2Name;
+    
     private enum Score {
         LOVE (0, "Love"),
         FIFTEEN (1, "Fifteen"),
         THIRTY (2, "Thirty"),
         FORTY (3, "Forty"),
-        MORE (4, "Sixty or More");
+        MORE (4, "Deuce");
         
         int key;
         String desc;
@@ -28,6 +29,7 @@ public class TennisGame {
     }
     private Score m_score1 = Score.LOVE;
     private Score m_score2 = Score.LOVE;
+
     private int scoreDiff = 0;
 
     public TennisGame(String player1Name, String player2Name) {
@@ -62,7 +64,7 @@ public class TennisGame {
 
     private String getWinningScore() {
         String score;
-        if (scoreDiff==1) score ="Advantage player1";
+        if (scoreDiff==1) score = "Advantage player1";
         else if (scoreDiff == -1) score = "Advantage player2";
         else if (scoreDiff >= 2) score = "Win for player1";
         else score ="Win for player2";
