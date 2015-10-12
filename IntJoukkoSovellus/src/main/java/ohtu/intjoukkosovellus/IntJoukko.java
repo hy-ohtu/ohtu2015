@@ -58,15 +58,18 @@ public class IntJoukko {
             luvut[alkioidenLkm] = luku;
             alkioidenLkm++;
             if (alkioidenLkm % luvut.length == 0) {
-                int[] vanhatLuvut = new int[luvut.length];
-                vanhatLuvut = luvut;
-                kopioiTaulukko(luvut, vanhatLuvut);
-                luvut = new int[alkioidenLkm + kasvatuskoko];
-                kopioiTaulukko(vanhatLuvut, luvut);
+                kasvata();
             }
             return true;
         }
         return false;
+    }
+
+    private void kasvata() {
+        int[] vanhatLuvut = new int[luvut.length];
+        kopioiTaulukko(luvut, vanhatLuvut);
+        luvut = new int[alkioidenLkm + kasvatuskoko];
+        kopioiTaulukko(vanhatLuvut, luvut);
     }
 
     public boolean kuuluu(int luku) {
