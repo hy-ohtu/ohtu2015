@@ -85,3 +85,6 @@ Perus -ja haastava laskari tällä viikolla sama. Jos suunnittelet haluavasi yli
 
 ##Viikot 7&8
 Katso [loppukurssin aikatauluinfo](https://github.com/hy-ohtu/ohtu2015/wiki/Loppukurssin-aikatauluinfo) 
+
+##Laskari 7
+Deadline poikkeuksellisesti vasta to 22.10 klo 11:59. [Laskari](https://github.com/hy-ohtu/ohtu2015/wiki/Laskari-7)
