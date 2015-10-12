@@ -79,35 +79,28 @@ public class IntJoukko {
                 on++;
             }
         }
-        if (on > 0) {
-            return true;
-        } else {
-            return false;
-        }
+        return on > 0;
     }
 
     public boolean poista(int luku) {
-        int kohta = -1;
-        int apu;
         for (int i = 0; i < alkioidenLkm; i++) {
             if (luku == luvut[i]) {
-                kohta = i; //siis luku löytyy tuosta kohdasta :D
-                luvut[kohta] = 0;
-                break;
+                luvut[i] = 0;
+                tiivista(i);
+                alkioidenLkm--;
+                return true;
             }
         }
-        if (kohta != -1) {
-            for (int j = kohta; j < alkioidenLkm - 1; j++) {
-                apu = luvut[j];
-                luvut[j] = luvut[j + 1];
-                luvut[j + 1] = apu;
-            }
-            alkioidenLkm--;
-            return true;
-        }
-
-
         return false;
+    }
+
+    private void tiivista(int kohta) {
+        int apu;
+        for (int j = kohta; j < alkioidenLkm; j++) {
+            apu = luvut[j];
+            luvut[j] = luvut[j + 1];
+            luvut[j + 1] = apu;
+        }
     }
 
     private void kopioiTaulukko(int[] vanha, int[] uusi) {
