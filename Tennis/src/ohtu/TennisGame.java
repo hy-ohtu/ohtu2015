@@ -13,10 +13,12 @@ public class TennisGame {
     }
 
     public void wonPoint(String playerName) {
-        if (playerName == "player1")
+        if (playerName.equals(player1Name)) {
             m_score1 += 1;
-        else
-            m_score2 += 1;
+        }
+        else if (playerName.equals(player2Name)) {
+            m_score2 += 1;  
+        } 
     }
 
     public String getScore() {
