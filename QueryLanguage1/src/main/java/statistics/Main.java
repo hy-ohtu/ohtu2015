@@ -6,10 +6,12 @@ public class Main {
     public static void main(String[] args) {
         Statistics stats = new Statistics(new PlayerReaderImpl("http://nhlstats-2013-14.herokuapp.com/players.txt"));
           
-        Matcher m = new And( new HasAtLeast(10, "goals"),
-                             new HasAtLeast(10, "assists"),
-                             new PlaysIn("PHI")
-        );
+        QueryBuilder b = new QueryBuilder();
+        
+        Matcher m = b.hasAtLeast(10, "goals")
+                .hasAtLeast(10, "assists")
+                .playsIn("PHI")
+                .build();
         
         for (Player player : stats.matches(m)) {
             System.out.println( player );
@@ -17,13 +19,15 @@ public class Main {
         
         System.out.println("---");
         
-        Matcher m2 = new And( new Or(new HasFewerThan(3, "goals"),
-                                     new HasFewerThan(3, "assists")),
-                              new Not(new PlaysIn("PHI"))
-        );
-        
+        Matcher m2
+                = b.oneOf(b.hasFewerThan(3, "goals"),
+                          b.hasFewerThan(3, "assists"))
+                .not(b.playsIn("PHI"))
+                .build();
+
         for (Player player : stats.matches(m2)) {
             System.out.println( player );
         }
+               
     }
 }
