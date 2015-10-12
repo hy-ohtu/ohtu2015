@@ -55,11 +55,6 @@ public class IntJoukko {
     }
     
     public boolean lisaa(int luku) {
-        if (alkioidenLkm == 0) {
-            luvut[0] = luku;
-            alkioidenLkm++;
-            return true;
-        } 
         if (!kuuluu(luku)) {
             luvut[alkioidenLkm] = luku;
             alkioidenLkm++;
