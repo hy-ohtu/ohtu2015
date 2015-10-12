@@ -116,27 +116,30 @@ public class IntJoukko {
 
     @Override
     public String toString() {
-        if (alkioidenLkm == 0) {
-            return "{}";
-        } else if (alkioidenLkm == 1) {
-            return "{" + luvut[0] + "}";
-        } else {
-            String tuotos = "{";
-            for (int i = 0; i < alkioidenLkm - 1; i++) {
-                tuotos += luvut[i];
-                tuotos += ", ";
-            }
-            tuotos += luvut[alkioidenLkm - 1];
-            tuotos += "}";
-            return tuotos;
+        switch (alkioidenLkm) {
+            case 0:
+                return "{}";
+            case 1:
+                return "{" + luvut[0] + "}";
+            default:
+                return moniAlkioString();
         }
+    }
+
+    private String moniAlkioString() {
+        String tuotos = "{";
+        for (int i = 0; i < alkioidenLkm - 1; i++) {
+            tuotos += luvut[i];
+            tuotos += ", ";
+        }
+        tuotos += luvut[alkioidenLkm - 1];
+        tuotos += "}";
+        return tuotos;
     }
 
     public int[] toIntArray() {
         int[] taulu = new int[alkioidenLkm];
-        for (int i = 0; i < taulu.length; i++) {
-            taulu[i] = luvut[i];
-        }
+        System.arraycopy(luvut, 0, taulu, 0, taulu.length);
         return taulu;
     }
    
