@@ -1,4 +1,5 @@
 #Ohjelmistotuotanto syksy 2015
+#[Loppukurssin aikatauluinfoa](https://github.com/hy-ohtu/ohtu2015/wiki/Loppukurssin-aikatauluinfo)
 
 Kurssilla käsitellään ohjelmistotuotantoprojektien hallinnan, työvaiheiden ja työvälineiden perusteita. Erityinen painotus ketterissä ohjelmistotuotantomenetelmissä. 
 
@@ -15,7 +16,7 @@ IRC-kanava on #ohtu2015 @ IRCnet
 
 **Huom.** myös haastavissa tehtävissä on git-tehtäviä, saman verran kuin perustehtävissä. Näinollen siis tekemällä esim. kaikki haastavat tehtävät ja osallistumalla miniprojektiin saat 8op 
 
-Tentti: 
+Tentti: Tiistaina 20.10 klo 09:00 salissa A111
 
 ##Miniprojektit
 
@@ -71,4 +72,19 @@ Deadline ma 14.9 klo 23:59
 [perus](https://github.com/hy-ohtu/ohtu2015/wiki/Laskari-4-perus)
 [haastava](https://github.com/hy-ohtu/ohtu2015/wiki/Laskari-4-haastava)
 ##Viikko4 Paja-ajat to 24.9 klo 14-16 & pe 12-14
+
+##Laskari 5
+[perus](https://github.com/hy-ohtu/ohtu2015/wiki/Laskari-5-perus)
+[haastava](https://github.com/hy-ohtu/ohtu2015/wiki/Laskari-5-haastava)
 ##Viikko5 paja-ajat ma 28.9 klo 14-16 & pe 12-14 
+
+##Viikko6 paja-ajat ma 5.10 klo 14-16 & pe 12-14 
+##Laskari 6
+Perus -ja haastava laskari tällä viikolla sama. Jos suunnittelet haluavasi ylimääräisen opintopisteen haastavien laskarien teosta, merkkaa palautussubmissioon tehneesi haastavat. 
+[laskari](https://github.com/hy-ohtu/ohtu2015/wiki/Laskari-6-perus-&-haastava)
+
+##Viikot 7&8
+Katso [loppukurssin aikatauluinfo](https://github.com/hy-ohtu/ohtu2015/wiki/Loppukurssin-aikatauluinfo) 
+
+##Laskari 7
+Deadline poikkeuksellisesti vasta to 22.10 klo 11:59. Haastava: tee kaikki 8 tehtävää, perus: tee 5 tehtävää [Laskari](https://github.com/hy-ohtu/ohtu2015/wiki/Laskari-7)
