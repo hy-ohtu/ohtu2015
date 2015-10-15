@@ -1,0 +1,19 @@
+Copyleftill‰ tarkoitetaan lisenssej‰, jotka sallivat alkuper‰isen koodin pohjalta tehdyt tuotokset, kunhan ne julkaistaan samalla lisenssill‰ kuin alkuper‰inen koodi.
+
+Contributor Agreement on sopimus, jolla open source projektiin osallistuva kehitt‰j‰ antaa projektille luvan k‰ytt‰‰ ja levitt‰‰ tuottamaansa koodia projektin olemassaolevan lisenssin mukaisella tavalla.
+
+Public domain on yleisluontoinen termi, jolla tarkoitetaan, ett‰ teos ei ole tekij‰noikeuksien alainen.
+
+Permissive Open source license tarkoittaa sit‰, ett‰ johdettuja teoksia voi vapaasti levitt‰‰ ilman vaatimusta siit‰, ett‰ ne olisi julkaistava samalla lisenssill‰ (vrt. copyleft).
+
+
+
+Open source -koodin julkaisemiseen riitt‰‰, ett‰ sis‰llytt‰‰ siihen lisenssiehdot sis‰lt‰v‰n dokumentin, tyypillisesti tiedostonimell‰ copyright.
+
+
+
+TMC-server ja Eclipse eiv‰t ole yhteensopivia, sill‰ TMC:n lisenssi on GNU GPL ja Eclipsen EPL-lisenssin ehdot ovat GPL:n kanssa ristiriidassa. Ei siis ole mahdollista noudattaa molempia lisenssiehtoja samanaikaisesti.
+
+
+
+
