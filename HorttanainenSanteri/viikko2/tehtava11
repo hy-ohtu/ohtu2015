@@ -1,0 +1,5 @@
+GPL ja EPL ovat yhteensopimattomia EPL:n heikompien copyleft vaatimusten vuoksi.
+
+Eclipsen pluginit eivät ole yksittäisiä projekteja vaan muodostavat eclipsen kanssa yksittäisen projektin, koska eclipsen pluginit tekevät kutsuja eclipsen kirjatoihin. Tällöin pluginin lisenssin on oltava yhteensopiva eclipsen lisenssin kanssa.
+
+Eclipse ei voi täten käyttää tmc-serveriä.
