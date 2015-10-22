@@ -1,0 +1,6 @@
+#surefire
+#Thu Oct 22 03:45:16 EEST 2015
+user.dir=/home/hexvaara/Documents/Courses/ohtu/finale/ApiClient
+exec.mainClass=ohtu.apiclient.Main
+localRepository=/home/hexvaara/.m2/repository
+basedir=/home/hexvaara/Documents/Courses/ohtu/finale/ApiClient

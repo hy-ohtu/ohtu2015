@@ -1,0 +1,6 @@
+#surefire
+#Thu Oct 22 03:43:12 EEST 2015
+user.dir=/home/hexvaara/Documents/Courses/ohtu/finale/PersonService
+exec.mainClass=ohtu.personservice.App
+localRepository=/home/hexvaara/.m2/repository
+basedir=/home/hexvaara/Documents/Courses/ohtu/finale/PersonService

@@ -1,0 +1,6 @@
+#surefire
+#Thu Oct 22 03:43:06 EEST 2015
+user.dir=/home/hexvaara/Documents/Courses/ohtu/finale/ConfigurationService
+exec.mainClass=ohtu.configurationservice.ConfMain
+localRepository=/home/hexvaara/.m2/repository
+basedir=/home/hexvaara/Documents/Courses/ohtu/finale/ConfigurationService
