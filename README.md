@@ -1,6 +1,7 @@
 #Ohjelmistotuotanto syksy 2015
 
 [Kurssin tulokset](ohtu.pdf)
+* läpipääsyyn edellytettiin puolet kurssipistemäärästä sekä kokeesta vähintään 9/20 pistettä
 
 Kurssilla käsitellään ohjelmistotuotantoprojektien hallinnan, työvaiheiden ja työvälineiden perusteita. Erityinen painotus ketterissä ohjelmistotuotantomenetelmissä. 
 
