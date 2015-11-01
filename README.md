@@ -1,5 +1,6 @@
 #Ohjelmistotuotanto syksy 2015
-#[Loppukurssin aikatauluinfoa](https://github.com/hy-ohtu/ohtu2015/wiki/Loppukurssin-aikatauluinfo)
+
+[Kurssin tulokset](ohtu.pdf)
 
 Kurssilla käsitellään ohjelmistotuotantoprojektien hallinnan, työvaiheiden ja työvälineiden perusteita. Erityinen painotus ketterissä ohjelmistotuotantomenetelmissä. 
 
