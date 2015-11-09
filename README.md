@@ -3,6 +3,8 @@
 [Kurssin tulokset](ohtu.pdf)
 * läpipääsyyn edellytettiin puolet kurssipistemäärästä sekä kokeesta vähintään 9/20 pistettä
 
+[Kokeen arviointiperusteet](https://github.com/hy-ohtu/ohtu2015/wiki/Kokeen-arviointiperusteet)
+
 Kurssilla käsitellään ohjelmistotuotantoprojektien hallinnan, työvaiheiden ja työvälineiden perusteita. Erityinen painotus ketterissä ohjelmistotuotantomenetelmissä. 
 
 Kurssi sisältää viikoittaiset harjoitustehtävät sekä luentokalvot. Viikolla 39 alkaa miniprojektit, joista lisää tietoa aloitusluennossa sekä myöhemmin näillä sivuilla. 
