@@ -1,0 +1,9 @@
+to use, these must be located in ~/Documents/Courses/ohtu15/ohtuv/
+
+install-ohtuv.sh compiles java files and inserts aliases to ~/.bash_aliases and finally restarts bash
+
+ohtuv-init // initializes new repository
+ohtuv-save <file> // makes a timestamped backup in .ohtuv folder
+ohtuv-restore <timestamp> <file> // restores file from .ohtuv folder
+
+<timestamp> = %d.%m.%y.%h:%m

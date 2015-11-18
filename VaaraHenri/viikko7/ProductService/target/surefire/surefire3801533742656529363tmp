@@ -1,0 +1,6 @@
+#surefire
+#Thu Oct 22 03:50:30 EEST 2015
+user.dir=/home/hexvaara/Documents/Courses/ohtu/finale/ProductService
+exec.mainClass=ohtu.productservice.Main
+localRepository=/home/hexvaara/.m2/repository
+basedir=/home/hexvaara/Documents/Courses/ohtu/finale/ProductService

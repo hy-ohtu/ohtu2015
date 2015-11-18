@@ -1,0 +1,14 @@
+copyleft:
+	mikäli käyttää lisensoitua koodia, on sitä myös jatkettava saman lisenssin alla.
+	
+contributor agreement:
+	useat avoimen lähdekoodin projektit ottavat vastaan ohjelmauudistuksia vain mikäli myös uudistuksen tekijä on hyväksynyt contributor agreementin.
+	
+public domain:
+	vapaaseen käyttöön annettu teos joka syntyy kun tekijä luopuu tekijänoikeudestaan, esim sen vanhentuessa.
+	
+permissive open source licence:
+	lisenssityyppi avoimen lähteen ohjelmalle joka antaa paljon vapauksia käyttöön, muutoksiin ja uudelleenjakeluun kuitenkin estäen patentoitujen johdannaisten tekemisen.
+	
+kun olen löytänyt sopivan lisenssin, mitä teen kun haluan julkaista koodini sillä?
+	luen lisenssin käyttöohjeet ja toimin niiden mukaan, sillä käytännöt vaihtelevat tapauskohtaisesti.
